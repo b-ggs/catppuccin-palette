@@ -114,6 +114,11 @@ export type Flavors<T> = {
    * High-saturation, High-contrast dark variant
    */
   mocha: T;
+
+  /**
+   * High-saturation, High-contrast dark variant, but pink
+   */
+  pinkdrink: T;
 };
 
 export type ColorFormat = Readonly<{
